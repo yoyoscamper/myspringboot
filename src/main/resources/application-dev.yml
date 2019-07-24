@@ -1,0 +1,14 @@
+server:
+#  servlet.context-path: /springboot
+  port: 8081
+spring:
+  datasource:
+   type: com.alibaba.druid.pool.DruidDataSource
+   driver-class-name: com.mysql.jdbc.Driver
+   #开发环境
+   url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+   username: root
+   password: 123456
+  mybatis:
+      type-aliases-package: com.ydy.scamper.entity
+      mapper-locations: classpath*:com/ydy/scamper/mapper/*.xml
