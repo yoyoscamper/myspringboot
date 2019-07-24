@@ -26,8 +26,8 @@ public class UserParam {
 
     private String email;
 
-    @NotBlank(message ="删除状态不能为空",groups = {GroupsAction.CreateAction.class})
-    private String delStatus;
+    @NotBlank(message ="状态不能为空",groups = {GroupsAction.CreateAction.class})
+    private String recordStatus;
 
     @NotBlank(message ="手机号码不能为空",groups = {GroupsAction.CreateAction.class})
     private String mobile;

@@ -20,7 +20,7 @@ public class User extends BaseEntity<User> {
 
     private String email;
 
-    private String delStatus;
+    private String recordStatus;
 
     private String mobile;
 
