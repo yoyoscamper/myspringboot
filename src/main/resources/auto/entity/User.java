@@ -1,4 +1,4 @@
-package com.ydy.scamper.entity;
+package auto.entity;
 
 public class User {
     private String id;

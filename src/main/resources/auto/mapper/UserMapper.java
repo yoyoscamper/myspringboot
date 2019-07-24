@@ -1,7 +1,7 @@
-package com.ydy.scamper.mapper;
+package auto.mapper;
 
-import com.ydy.scamper.entity.User;
-import com.ydy.scamper.entity.UserExample;
+import auto.entity.User;
+import auto.entity.UserExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

@@ -1,4 +1,4 @@
-package com.ydy.scamper.entity;
+package auto.entity;
 
 import java.util.ArrayList;
 import java.util.List;

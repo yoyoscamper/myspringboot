@@ -15,11 +15,11 @@
                         userId="root"
                         password="123456" />
 
-        <javaModelGenerator targetPackage="com.ydy.scamper.entity" targetProject="src/main/java" />
+        <javaModelGenerator targetPackage="auto.entity" targetProject="src/main/resources" />
 
-        <sqlMapGenerator targetPackage="com.ydy.scamper.mapper" targetProject="src/main/java" />
+        <sqlMapGenerator targetPackage="auto.mapper" targetProject="src/main/resources" />
 
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.ydy.scamper.mapper" targetProject="src/main/java" />
+        <javaClientGenerator type="XMLMAPPER" targetPackage="auto.mapper" targetProject="src/main/resources" />
 
 
 
